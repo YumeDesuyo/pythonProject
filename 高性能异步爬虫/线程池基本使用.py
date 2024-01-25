@@ -35,7 +35,7 @@ def get_page(str):
 name_list = ['aaa', 'bbb', 'ccc', 'ddd', ]
 
 # 实例化一个线程池对象
-pool = Pool(len(name_list))
+pool = Pool(4)
 # 将列表中每一个元素传递给get_page 进行处理
 pool.map(get_page, name_list)
 

@@ -4,3 +4,21 @@
 异步爬虫的方式：
     -多线程
     -线程池
+
+{'resultCode': '1',
+'resultMsg': 'success',
+'reqId': '23698548-4602-4524-8eff-84540c14c073',
+'systemTime': '1706187143379',
+    'videoInfo':
+        {'playSta': '1',
+        'video_image': 'https://image2.pearvideo.com/cont/20240125/cont-1791506-71069456.jpg',
+        'videos':
+            {'hdUrl': '',
+            'hdflvUrl': '',
+            'sdUrl': '',
+            'sdflvUrl': '',
+            'srcUrl': 'https://video.pearvideo.com/mp4/short/20240125/1706187143379-71105330-hd.mp4'}}}
+
+
+fake https://video.pearvideo.com/mp4/short/20240125/1706187143379-71105330-hd.mp4
+real https://video.pearvideo.com/mp4/short/20240125/cont-1791497-71105328-hd.mp4
