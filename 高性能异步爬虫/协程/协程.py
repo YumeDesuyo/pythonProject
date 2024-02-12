@@ -36,13 +36,13 @@ c = request('www.baidu.com')
 # loop.run_until_complete(task)
 # print(task)
 
-# 定义回调函数
-def callback_fun(task):
-    print(task.result())
-
-
-# 绑定回调
-loop = asyncio.get_event_loop()
-task = loop.create_task(c)
-task.add_done_callback(callback_fun)
-loop.run_until_complete(task)
+# # 定义回调函数
+# def callback_fun(task):
+#     print(task.result())
+#
+#
+# # 绑定回调
+# loop = asyncio.get_event_loop()
+# task = loop.create_task(c)
+# task.add_done_callback(callback_fun)
+# loop.run_until_complete(task)
