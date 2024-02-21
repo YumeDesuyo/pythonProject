@@ -10,5 +10,5 @@ lunar_day = LunarDate.today().day
 chen = (datetime.datetime.now().hour + 1) // 2 % 12
 sum = lunar_moth + lunar_day + chen
 # 卦象
-liuren_list = ["大安", "留连", "速喜", "赤口", "小吉", "空亡"]
+liuren_list = ["空亡", "大安", "留连", "速喜", "赤口", "小吉"]
 print(liuren_list[sum % 6])
